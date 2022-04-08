@@ -1,0 +1,77 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  cursor: url('assets/cursor3.png'), auto;
+}
+body {
+  background: #FFE3B9;
+  background-size: auto;
+  margin: 0;
+}
+img {
+  width: 100px;
+  height: auto;
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.face_image {
+  width: 450px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  font-size: 200%;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFE3B9;
+  position: fixed;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: "Quicksand", sans-serif;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+
+li a:hover {
+  background-color: #F8D39C;
+
+}
+
+h1{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23vw;
+    font-weight: 700;
+    width: min-content;
+}
+.socials{
+  width: 30px;
+  height: auto;
+}
